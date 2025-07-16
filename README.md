@@ -1,5 +1,3 @@
-ystem
-
 A backend system for processing internal financial transactions between accounts using **Go** and **PostgreSQL**. Exposes RESTful endpoints for creating accounts, querying balances, and securely transferring funds between accounts.
 
 ---
@@ -92,11 +90,13 @@ cd internal-transfers
 go mod tidy
 ```
 
-4. In your `db/db.go`, configure the connection string using your credentials:
-
-```go
-connStr := "host=localhost port=5432 user=your_user password=your_password dbname=internal_transfers sslmode=disable"
-```
+4. 📁 Create a `.env` file in the root directory with your DB credentials:
+DB_HOST=localhost
+DB_PORT=5432
+DB_USER=your_user
+DB_PASSWORD=your_password
+DB_NAME=internal_transfers
+DB_SSLMODE=disable
 
 Then start the server:
 
