@@ -1,4 +1,4 @@
-A backend system for processing internal financial transactions between accounts using **Go** and **PostgreSQL**. Exposes RESTful endpoints for creating accounts, querying balances, and securely transferring funds between accounts.
+A backend system for processing internal for transactions between accounts using **Go** and **PostgreSQL**. Exposes RESTful endpoints for creating accounts, querying balances, and securely transferring funds between accounts.
 
 ---
 
