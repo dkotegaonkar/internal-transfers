@@ -163,6 +163,10 @@ Server will run at:
 ![Self Transfer Error](assets/self_transfer_error.png)
 
 ---
+![accounts_db](assets/accounts_db.png)  
+![transaction_db](assets/transactions_db.png)
+
+---
 
 ## ✅ Key Features
 
